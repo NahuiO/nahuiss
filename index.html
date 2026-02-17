@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz 14 de Febrero</title>
+    <style>
+        body {
+            background-color: #ffe4e1; /* Un rosa pastel suave */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .card {
+            background-color: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 400px;
+            border: 2px solid #ff6b6b;
+        }
+
+        h1 {
+            color: #ff6b6b;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+
+        .heart {
+            color: #ff6b6b;
+            font-size: 50px;
+            margin-bottom: 20px;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #ff6b6b;
+        }
+
+        .btn-mensaje {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff6b6b;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background 0.3s;
+        }
+
+        .btn-mensaje:hover {
+            background-color: #ee5253;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="heart">❤</div>
+        <h1>¡Feliz Día de la Amistad!</h1>
+        <p>
+            Dicen que los amigos son la familia que uno elige, y yo tuve la suerte de elegirlos a ustedes. Gracias por las risas, el apoyo y por estar siempre ahí.
+        </p>
+        <p>¡Eres una persona increíble!</p>
+        
+        <div class="footer">Con mucho cariño, [Tu Nombre]</div>
+        
+        <a href="https://wa.me/?text=¡Te mandé una cartita digital! Revisa tu correo" class="btn-mensaje">Compartir por WhatsApp</a>
+    </div>
+
+</body>
+</html>
